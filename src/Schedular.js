@@ -2,29 +2,29 @@ const express = require("express");
 const cron = require("node-cron");
 const router = express. Router();
 
-router.post("/schedule", (_, res) => {
+router.post("/schedule", (req, res) => {
 try {
 
     let TaskToBeSchedule = [
         {
             text: "Anshul'sBirthday",
-            time: "2023-02-14 16:47:00"
+            time: "2023-02-14 16:49:00"
         },
         {
             text: "Aayush'sBirthday",
-            time: "2023-02-14 16:47:03"
+            time: "2023-02-14 16:49:03"
         },
         {
             text: "akshay'sBirthday",
-            time: "2023-02-14 16:47:06"
+            time: "2023-02-14 16:49:06"
         },
         {
             text: "sheeta'sBirthday",
-            time: "2023-02-14 16:47:09"
+            time: "2023-02-14 16:49:09"
         },
         {
             text: "sweta'sBirthday",
-            time: "2023-02-14 16:47:12"
+            time: "2023-02-14 16:49:12"
         }
     ]
     
