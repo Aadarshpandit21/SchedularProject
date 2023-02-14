@@ -1,0 +1,24 @@
+{
+  "name": "schedularproject",
+  "version": "1.0.0",
+  "description": "Build a scheduler in JS with NodeJS framework and a script to run it for 10 events. The event will consist of a text (string) and a date time at which it will run. The scheduler must schedule the event to trigger a function at the date time mentioned in the event body. The trigger function (API) must accept the text as input, sleep for the duration of text length and return text backwards. Example Let say list of events is [             \t{                             \t“text”: “textOne”,                             \t“dateTime”: “2020-07-10 15:00:00.000” }, {",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadarshpandit21/SchedularProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aadarshpandit21/SchedularProject/issues"
+  },
+  "homepage": "https://github.com/Aadarshpandit21/SchedularProject#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron":"^3.0.2",
+    "nodemon": "^2.0.20"
+  }
+}
